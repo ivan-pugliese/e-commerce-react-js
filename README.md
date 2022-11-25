@@ -1,6 +1,6 @@
 # Desarrollo de un E-commerce ficticio realizado en Coderhouse sobre una tienda deportiva.
 
-## Tecnologías
+## Tecnologías:
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -12,7 +12,7 @@
 
 ### Demo del proyecto:
 
-![Demo del proyecto](https://github.com/ivan-pugliese/project-coderhouse-react-js/blob/main/src/assets/React-App-Google-Chrome-2022-11-25-11-57-24.gif)
+![Demo del proyecto](https://github.com/ivan-pugliese/e-commerce-react-js/blob/main/src/assets/React-App-Google-Chrome-2022-11-25-11-57-24.gif?raw=true)
 
 ## Getting Started
 
@@ -40,6 +40,6 @@ To get a local copy up and running follow these simple example steps.
    npm start;
    ```
 
-### Profesor de la comisión
+### Profesor de la comisión:
 
 Guillermo Fergnani
