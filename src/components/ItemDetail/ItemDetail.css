@@ -1,0 +1,45 @@
+.Card-detail {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  color: var(--black-color);
+  background-color: #fff;
+  box-shadow: 0.25rem 0.25rem 1rem #1c85fc;
+}
+
+.Card-detail h4 {
+  text-align: center;
+  color: #075671;
+}
+
+.Card-detail p {
+  text-align: center;
+}
+
+.Card-detail img {
+  object-fit: contain;
+  width: 100%;
+  height: 50%;
+}
+
+.Card-detail div {
+  background-color: #beefff;
+  height: 50%;
+}
+
+.Buttons-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Send {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-weight: bold;
+  color: #075671;
+}

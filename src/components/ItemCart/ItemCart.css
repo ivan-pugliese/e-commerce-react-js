@@ -1,0 +1,65 @@
+.Card-cart-container {
+  max-width: 1200px;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Card-cart {
+  display: flex;
+  flex-direction: row;
+  width: 440px;
+  height: 250px;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0.25rem 0.25rem 1rem #1c85fc;
+}
+
+.Card-cart h4 {
+  color: #075671;
+}
+
+.Card-cart img {
+  object-fit: contain;
+  width: 60%;
+}
+
+.Card-cart div {
+  padding: 0 2rem;
+  border-radius: 0.5rem;
+  background-color: #beefff;
+}
+
+.Btn-delete {
+  padding: 0.5rem;
+  font-weight: bold;
+  font-family: var(--font);
+  color: #fff;
+  background-color: #1c85fc;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.Btn-delete:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .Card-cart {
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+  }
+
+  .Btn-delete {
+    margin-bottom: 0.5rem;
+  }
+}

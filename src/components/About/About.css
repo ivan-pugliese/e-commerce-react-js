@@ -1,0 +1,71 @@
+.About {
+  width: 100%;
+  background-image: url("../../assets/hero-image-about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.Hero-image-aside {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Hero-image-content {
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+.Hero-image-content h1 {
+  margin: 0;
+  font-size: 2rem;
+  text-shadow: 0px 1px 17px rgba(28, 133, 252, 1);
+}
+
+.Hero-image-content p {
+  font-size: 1.2rem;
+  padding: 0 15rem;
+  line-height: 1.5rem;
+}
+
+.About img {
+  width: 500px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.About-stores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .About-stores {
+    flex-direction: column;
+  }
+
+  .Hero-image-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .Hero-image-content p {
+    padding: 0 1rem;
+    line-height: 1.5rem;
+  }
+}

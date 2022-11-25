@@ -1,0 +1,92 @@
+.Total-clear-container {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Total {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 1px 17px rgba(28, 133, 252, 1);
+}
+
+.Btn-clear {
+  padding: 0.5rem;
+  font-weight: bold;
+  font-family: var(--font);
+  color: #fff;
+  background-color: #1c85fc;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.Btn-clear:hover {
+  transform: scale(1.1);
+}
+
+.No-products {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 0px 1px 17px rgba(28, 133, 252, 1);
+}
+
+.Btn-buy {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-family: var(--font);
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1c85fc;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.Btn-buy:hover {
+  transform: scale(1.1);
+}
+
+.No-products-container {
+  margin: 7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.No-products-container img {
+  width: 500px;
+}
+
+.Finish-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.Finish {
+  padding: 0.5rem;
+  font-weight: bold;
+  font-family: var(--font);
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1c85fc;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.Finish:hover {
+  transform: scale(1.1);
+}

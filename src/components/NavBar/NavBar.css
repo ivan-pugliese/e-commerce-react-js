@@ -1,0 +1,22 @@
+.NavBar {
+  font-weight: bold;
+  box-shadow: 0.25rem 0.25rem 1rem #1c85fc;
+}
+
+.Links {
+  text-decoration: none;
+}
+
+.Link-logo {
+  margin-right: 1rem;
+  margin-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.Link-logo:hover {
+  transform: scale(1.1);
+}
