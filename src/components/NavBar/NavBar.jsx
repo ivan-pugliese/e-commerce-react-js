@@ -79,7 +79,7 @@ function ResponsiveAppBar() {
                     <Link
                       className="Links"
                       to={page.link}
-                      style={{ color: "#fff" }}
+                      style={{ color: "#1c85fc" }}
                     >
                       {page.label}
                     </Link>
